@@ -4,8 +4,7 @@
     width: 100%;
     position: fixed;
     box-shadow: 2px 8px 30px rgba(0, 0, 0, 0.329);
-
-
+    z-index: 1000;
 }
 
 .Primary-header {
@@ -146,16 +145,41 @@ main .cards div p {
     display: flex;
     gap: 10px;
 }
-.apoio{
+.apoio {
     width: 80%;
     background-color: var(--cinza);
     display: flex;
-    position: static;
-    
-}
-.talk{
-    width: 80%;
+    position: static; 
+    margin: 80px auto;
     border-radius: 20px;
+    overflow: visible; 
+}
+.apoio-left{
+    flex-wrap: wrap;
+    display: ;
+}
+.apoio-rigth {
+    position: relative;
+    width: 300px;
+    flex: 1;
+}
 
-
+.talk {
+    width: 130%;
+    border-radius: 20px;
+    position: absolute;
+    top: -40px;     
+    right: -40px;   /* move para fora do container */
+   z-index: 0;
+}
+.cards-apoio{
+    width: 300px;
+    display: flex;
+    background-color: red;
+    margin: 10px 0;
+}
+.suport-card{
+    width: 800px;
+    background-color: blue;
+    display: flex;
 }
