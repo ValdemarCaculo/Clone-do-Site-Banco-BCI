@@ -1,0 +1,21 @@
+:root{
+
+--roxo: #e72a87;
+--branco: #ffff;
+--verde: #163e39;
+--cinza: #d3cfcf;
+--cinza-escuro: #474747;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logo-principal{
+    width: 350px;
+    height: auto;
+}
