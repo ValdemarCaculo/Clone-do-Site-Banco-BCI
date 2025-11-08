@@ -78,7 +78,7 @@
 
 main .cards div {
     flex: 1 0 350px;
-   
+
     height: 130px;
     background-color: var(--roxo);
     border-radius: 10px;
@@ -105,7 +105,7 @@ main .cards div p {
     margin: 20px;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 #mobile-app {
@@ -118,46 +118,76 @@ main .cards div p {
     align-items: center;
     margin: auto;
     justify-content: center;
-    
+
 }
 
 .baixar-app div {
     width: -5%;
     flex-wrap: wrap;
- 
-    
+
+
 }
 
 .baixar-app div h1 {
     font-size: 30px;
     color: var(--verde);
 }
-.baixar-app div h2{
+
+.baixar-app div h2 {
     color: var(--roxo);
     font-weight: bold;
     font-size: 30px;
     margin: 10px 0;
 }
-.btn-apk{
+
+.btn-apk {
     width: 150px;
 }
-.btn-donwload{
+
+.btn-donwload {
     display: flex;
     gap: 10px;
 }
+
 .apoio {
-    width: 80%;
     background-color: var(--cinza);
+    width: 80%;
     display: flex;
-    position: static; 
+    position: static;
     margin: 80px auto;
     border-radius: 20px;
-    overflow: visible; 
+    overflow: visible;
+
 }
-.apoio-left{
+
+.inf-card {
+    margin: 70px 50px;
+    max-width: 500px;
+}
+
+.inf-card h1,
+h2 {
+    font-size: 30px;
+}
+
+.inf-card p {
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+.inf-card h1 {
+    color: var(--verde);
+}
+
+.inf-card h2 {
+    color: var(--roxo);
+}
+
+.apoio-left {
     flex-wrap: wrap;
-    display: ;
+
 }
+
 .apoio-rigth {
     position: relative;
     width: 300px;
@@ -165,21 +195,120 @@ main .cards div p {
 }
 
 .talk {
-    width: 130%;
+    width: 120%;
     border-radius: 20px;
     position: absolute;
-    top: -40px;     
-    right: -40px;   /* move para fora do container */
-   z-index: 0;
+    top: -40px;
+    right: -40px;
+    z-index: 0;
 }
-.cards-apoio{
-    width: 300px;
+
+.cards-apoio {
+    width: 200px;
     display: flex;
-    background-color: red;
-    margin: 10px 0;
+    border-radius: 12px;
+    background-color: var(--branco);
+    margin: 10px 20px;
+    padding: 20px 20px;
+    gap: 10px;
 }
-.suport-card{
-    width: 800px;
-    background-color: blue;
+
+.suport-card {
+    margin: 30px;
+    max-width: 600px;
+    flex-wrap: wrap;
     display: flex;
+    margin-bottom: 80px;
+}
+
+.card-img {
+    width: 30px;
+    height: auto;
+}
+
+.cambio {
+
+    max-width: 975px;
+    background-color: var(--verde);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+
+.cambio-inf {
+    background-color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+.valor {
+    border: 1px solid var(--cinza);
+    border-radius: 50px;
+    background-color: var(--branco);
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+.tabela{
+margin-bottom: 20px;
+}
+
+.valor h3 {
+    margin: 1px;
+}
+
+.compra-valor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+
+}
+
+.card-taxa-cambio {
+    background-color: var(--branco);
+    color: var(--verde);
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.card-taxa-cambio section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card-taxa-cambio section p {
+    text-align: right;
+    display: flex;
+
+}
+
+.notas {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bandeira {
+    height: 80px;
+    border-radius: 100px;
+}
+
+.cambio-cards {
+    display: flex;
+    gap: 25px;
+    margin: auto;
 }
